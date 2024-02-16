@@ -88,6 +88,7 @@ nav a {
 }
 .banner-des {
   margin-bottom: 30px;
+  
 }
 
 /* main section style */
@@ -96,4 +97,9 @@ nav a {
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0px;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+
 }
