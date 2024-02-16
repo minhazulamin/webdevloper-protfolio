@@ -88,7 +88,6 @@ nav a {
 }
 .banner-des {
   margin-bottom: 30px;
-  
 }
 
 /* main section style */
@@ -101,5 +100,69 @@ nav a {
 main {
   max-width: 1140px;
   margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  align-items: center;
+}
+.inof-title {
+  align-items: center;
+}
+#what-ido {
+  padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-dep {
+  color: #757575;
+}
 
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-item-institute,
+.resume-item-dep {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+.resume-container hr {
+  margin: 30px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+/* footer style */
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
 }
